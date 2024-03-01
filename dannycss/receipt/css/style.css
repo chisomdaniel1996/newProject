@@ -1,0 +1,113 @@
+.box{
+    width: 70%;
+    height: 400px;
+    margin: auto;
+  background-color: whitesmoke;
+    /* border: 2px solid red; */
+   
+
+}
+
+.image{
+width: 40%;
+height: 230px;
+opacity: 0.2;
+margin-top: -500px;
+margin-left: 250px;
+}
+
+.pix, .top{
+    display: inline-block;
+    
+}
+
+   .line1{
+    height: 5px;
+    width: 74%;
+    background-color: #E9BA45;
+    margin-top: 20px;
+   }
+   .line2{
+    height: 5px;
+    width: 18%;
+    background-color: #896300;
+    margin-top: 20px;
+    position: absolute;
+    top: 128px;
+    right: 210px;
+   }
+
+   .line1 .line2{
+    display: inline;
+   }
+
+   .cal{
+    margin-left: 40px;
+   }
+ 
+   .cal1{
+    margin-left: 20px;
+   }
+
+   .con{
+    margin-left: 40px;
+    margin-top: 20px;
+   }
+
+   input[ type="checkbox"]{
+  height: 25px;
+  width: 25px;
+  margin-left: 40px;
+ 
+   }
+
+   .last{
+    display: flex;
+    align-items: center;
+   }
+
+   label{
+    padding-left: 5px;
+   }
+   .sign{
+    text-align: right;
+    margin-top: -30px;
+    padding-right: 80px;
+   }
+
+   .this{
+    text-align: right;
+    margin-top: -30px;
+    padding-right: 50px;
+    padding-top: 20px;
+    word-spacing: 1px;
+   }
+
+   .smilie{
+    height: 80px;
+    width: 80px;
+    background-color: #E9BA45;
+    border-top-left-radius: 20px;
+    border-bottom-left-radius: 20px;
+    transform: rotate(-180deg);
+    position: absolute;
+    right: 207px;
+    top: 9px;
+    border-top-right-radius:190px ;
+    z-index: 2;
+    
+   
+   }
+
+   .smili{
+    height: 100px;
+    width: 100px;
+    background-color: #896300;
+    border-top-left-radius: 20px;
+    border-bottom-left-radius: 20px;
+    transform: rotate(-180deg);
+    position: absolute;
+    right: 207px;
+    top: 10px;
+    border-top-right-radius:190px ;
+   }

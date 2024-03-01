@@ -1,0 +1,44 @@
+.container{
+    border: 2px ridge lime;
+    width: 400px;
+    height: 300px;
+    text-align: center;
+    padding: 10px;
+    border-radius: 10px;
+    margin: auto;
+}
+
+body{
+    background-image: url("../image/wallpaper2.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+label{
+    font-size: 18px;
+}
+
+p{
+    margin-top: 50px;
+}
+
+button{
+    padding: 10px;
+    background-color: lime;
+    color: white;
+    width: 50%;
+    border-radius: 20px;
+    padding-top: 5px;
+    margin-top: 40px;
+}
+
+button:hover{
+    background-color: white;
+    color: lime;
+    border-color: lime;
+
+}
+
+span{
+    color: lime;
+}
